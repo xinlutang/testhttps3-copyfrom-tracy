@@ -47,6 +47,9 @@ under the License.
 							<a  onclick="testhttps('https://www.pineconetassel.com/testjson.php')"   >test https</a>
 						</li>
 						<li>
+							<a  onclick="testhttps('http://manage.pineconetassel.com/index.php/api/car/makes')"   >test http-api</a>
+						</li>
+						<li>
 							<a  onclick="testhttps('https://manage.pineconetassel.com/index.php/api/car/makes')"   >test https-api</a>
 						</li>
 
@@ -128,7 +131,7 @@ under the License.
 					}
 				}, function(response) {
 					// prints 403
-					console.log("tp9-" + response.status);
+					console.log("tp9" + response.status);
 					alert("tp9" + response.status);
 
 					//prints Permission denied
@@ -160,7 +163,7 @@ under the License.
 					}
 				}, function(response) {
 					// prints 403
-					console.log("tp109-" + response.status);
+					console.log("tp109" + response.status);
 					alert("tp109" + response.status);
 
 					//prints Permission denied
